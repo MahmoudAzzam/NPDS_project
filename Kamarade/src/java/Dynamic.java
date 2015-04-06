@@ -40,6 +40,7 @@ public class Dynamic extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet Dynamic at " + request.getContextPath() + "</h1>");
+            out.println("<p> Query = "+request.getParameter("query")+" </p>");
             out.println("</body>");
             out.println("</html>");
         }
